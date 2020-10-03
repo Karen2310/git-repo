@@ -1,0 +1,60 @@
+@font-face{
+    font-family: 'fjalla';
+    src: url(Fjord_One/FjordOne-Regular.ttf);
+}
+body{
+    background: #dfebe6; /*fondo*/
+    max-width: 1024px; /*ancho maximo*/ 
+    margin: 0 auto; 
+    font-family: 'Sansita Swashed', cursive;
+    /*font-weight: 500; peso o grosor de letra*/
+
+}
+
+body header{
+    background: #425df5;
+    color: #FFF; /* COLOR DE LETRA*/ 
+  
+    text-align: center;
+    padding: 10px;
+}
+/*fonts.google.com ESTILOS DE LETRAS*/
+body header h1{
+    margin: 0 auto ;
+    font-weight: 700;
+    font-family: 'fjalla';
+    text-shadow: 5px 5px blue; /*somnbra*/ 
+}
+
+body header nav ul li{
+    display: inline-block; /*rompe caja*/
+    background: #000;
+    color: #fff;
+    border-radius: 5px; /*% redondear imagen*/
+    padding: 5px; /*margen de elemento*/
+    box-shadow: 5px 5px #fff;/* somnbra*/
+    margin: 0 20px; /*margen arriba/abajo *lado*/
+
+}
+
+body header nav ul li:hover {
+    background: #fff;
+    color: #000;
+    box-shadow: 5px 5px #000;
+}
+footer{
+    background: #425df5 ;
+    height: 100px;
+
+}
+#seccion1{
+    background: #fff;
+    border: 3px solid #000;
+
+}
+
+#seccion1 article{
+    display: inline-block;
+    border:2px solid red;
+    width: 48%;
+}
