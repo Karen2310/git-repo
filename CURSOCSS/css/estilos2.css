@@ -39,7 +39,6 @@ div{
     height: 100px;/** alto*/
     width: 100px;/*ancho*/
 }
-}
 a{
     background: pink;
     height: 100px;
@@ -51,11 +50,14 @@ span{
 
 .caja1{
     background: lightgreen;
-    padding: 10px;
-    margin: 20px;
-    border: 2px solid black;
     box-sizing: border-box;
-    
+    /*margin: 10px 20px; /*Y - X*/
+   /* margin: 10px 30px 10px; /*para poner valores a los 4 lados*/
+    padding: 0 30px 0 0;
+    border: 3px dotted black;
+    border-width: 3px 10px 20px 4px;
+    border-style: solid dotted;
+    border-color: chocolate blue;
 }
 
 
