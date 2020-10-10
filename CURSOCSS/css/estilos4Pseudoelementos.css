@@ -28,8 +28,108 @@ ejemplo:
 /*SELECTION*/
 
 .texto::selection{
-    background: red;
+    background: yellow;
     color: white;
 }
-/**/
+/*BEFORE Y AFTER
+Se debe poner una propiedad obligarota. content, aunque se deje en blanco
+Son elementos de lìnea por defecto y son hijsos del elemento
+al que pertenecen
+*/
 
+.dinero::before{
+    content: '$';
+    color: turquoise;
+}
+.dinero::after{
+    content: '.00';
+}
+.ejemplo::before, .ejemplo::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: black;
+    display: inline-block;
+}
+
+/*PSEUDOCLASES
+DINAMICAS
+:link - link no visitado
+:visited - link visitado
+:activo -  link al momento del click
+:hover
+:focus
+
+De estado:
+
+:enabled
+:disabled:
+:checked
+:required
+:valid
+:invalid
+:option
+:in-range
+:out-of-range
+*/
+
+.enlace:link{
+    color: green;
+}
+
+.enlace:visited{
+    color: white;
+}
+
+.enlace:active{
+    transform: scale(.8);
+}
+.enlace{
+    display: inline-block;
+    padding: 5px;
+    background: rebeccapurple;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+.enlace:hover{
+    background: black;
+}
+.input:enabled{ /*Para elementos listos para entrada (habilitados)*/
+    background: blue;
+}
+.input,.label{
+    display: block;
+}
+.input:disabled{ /*Deshabilitado*/
+    background: red;
+}
+.input:required{
+    background: yellow;
+}
+.input:checked + label{
+    font-size: 30px;
+}
+.input:in-range{
+    background: green;
+}
+.input:out-of-range{
+    background: red;
+}
+
+/*
+Child-
+ :first-child - no importa que el elemento sea del mismo tipo
+ :last-child
+
+ :nth-child(n) (odd) num. impares
+ :nth-last-child(n)
+ :only-child
+*/
+
+.parrafo:nth-child(odd){
+    background: purple;
+}
+.parrafo:nth-child(even){
+    background: rebeccapurple;
+}
