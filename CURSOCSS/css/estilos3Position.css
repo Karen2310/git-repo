@@ -87,3 +87,52 @@ empiece con ese valor*/
     left: 0;
      margin: auto;
 }
+
+/*POSITION FIXED*/
+
+body{
+    margin: 0 auto;
+   /* padding-top: 50px;*/
+}
+.menu{
+    background: orange;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+   /* position: fixed;
+    width: 100%;
+    top: 0;*/
+    position: sticky;
+    top: 0px;
+}
+.titulo{
+    margin: 0 auto;
+}
+ /*Position sticky*/
+ .banner{
+    height: 200px;
+    background: darkblue;
+    color: #fff;
+    text-align: center;
+    line-height: 150px;
+ }
+ 
+ /* DISPLAY
+ Permite definir como se comporta una caja con respecto
+ a las adyacentes
+
+ inline, block, inline-block, none
+ */
+
+ .linea{
+     background: darkorange;
+     display: inline-block;
+    /*A los elementos en línea no les afecta los margenes+¿
+    y paddings verticales*/
+    /*margin-bottom: 200px;*/
+    width: 100px;
+ }
+.bloque{
+
+    background: darkred;
+}
