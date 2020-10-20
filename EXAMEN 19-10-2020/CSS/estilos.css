@@ -1,0 +1,148 @@
+body{
+    max-width: 1024px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header img{
+    width: 100px;
+
+}
+header nav {
+    display: inline-block;
+    background: #de4b8a;
+    width: 1024px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+header nav ul{
+    display: inline-block;
+}
+header nav ul li:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+header nav ul li{
+    display: inline-block;
+    color: #ffffff;
+    margin-right:40px ;
+    margin-bottom: 20px;
+  
+    
+}
+.seccion1{
+    position: relative;
+}
+.frase{
+    float: right;
+    margin-right: 80px;
+    margin-top: 50px;
+    color: #e29840;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.section1 div{
+    display: inline-block;
+}
+.seccion1 img{
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 50%;
+    border: 2px solid orange;
+    
+}
+.text{
+    position: absolute;
+    top:200px;
+    left:450px;
+    width: 470px;
+    text-align: center;
+    font-size: 14px;
+    color: #bcdfea;
+    font-weight: bold;
+}
+
+
+.by{
+    font-size: 10px;
+    width: 60px;
+    padding-bottom: 50px;
+}
+.footer1 h3{
+    width: 500px;
+padding-top: 15px;
+margin-left: 20px;
+color: #ffffff;
+}
+.footer1 h4{
+    color: #ffffff;
+    padding-left: 30px;
+    font-size: 12px;
+}
+#titulo{
+   
+    position: absolute;
+    top:60px;
+    left: 500px;
+    margin-bottom: 500px;
+    color: #51aae8;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 500px;
+}
+#subtitulo{
+    width: 600px;
+    position: absolute;
+    top:120px;
+    left: 400px;
+    text-align: center;
+    font-size: 20px;
+}
+#titulo, #subtitulo{
+    float: right;
+    margin-top: 10px;
+   
+}
+#leer-mas{
+    position:absolute;
+    top: 350px;
+    left: 650px;
+    background: #b6ca52;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 85px;
+    height: 30px;
+}
+#facebook{
+    position: absolute;
+    top: 700px;
+    left: 900px;
+    bottom: 50px;
+    width: 30px;
+    margin-right: 100px;
+ 
+}
+#instagram{
+    position: absolute;
+    top: 700px;
+    left: 950px;
+    bottom: 50px;
+    width: 30px;
+    margin-right: 100px;
+ 
+}
+#twitter{
+    position: absolute;
+    top: 700px;
+    left: 1000px;
+    bottom: 50px;
+    width: 30px;
+    margin-right: 100px;
+ 
+}
+footer{
+    background: #de4b8a;
+    height: 100px;
+}
